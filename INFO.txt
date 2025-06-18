@@ -285,7 +285,7 @@ I have been working on doing the model testing to make sure that the model is ac
 ########################################################
 
 June 11th
-After essentially checking on whether or not the model is struggling with the middel category (it is), I have been able to decide that I need to do the Controlled Abstention network.
+After essentially checking on whether or not the model is struggling with the middle category (it is), I have been able to decide that I need to do the Controlled Abstention network.
 
 ########################################################
 
@@ -294,3 +294,10 @@ June 17th
 After spending the better part of the last week working on integrating the CAN into my work, as well as tuning it, I have gotten to a point where it is functioning. I am now running CV in my silly manner with the intention of trying to duplicate the images seen in the regular cross entropy loss model that I have traditionally used (ala Tk2 LSTM SS file).
 
 Also, yay, I finally took the time to learn how to initalize a connection here with Github so that my work is recorded in some form or another outside of this cloud environment. 
+
+########################################################
+
+June 18th
+Ultimately decided I may not be using the abstention loss 100% correctly; so moving on to trying to use XAI on the cross entropy model 
+
+I did run the CV on the CAN model once more just to see what that outcome looks like.
