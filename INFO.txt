@@ -301,3 +301,10 @@ June 18th
 Ultimately decided I may not be using the abstention loss 100% correctly; so moving on to trying to use XAI on the cross entropy model 
 
 I did run the CV on the CAN model once more just to see what that outcome looks like.
+
+Started SHAP code.
+########################################################
+
+June 20th
+
+Create beeswarm SHAP plots. Added in SHAP to CV loop of normal LSTM model. 
