@@ -308,3 +308,10 @@ Started SHAP code.
 June 20th
 
 Create beeswarm SHAP plots. Added in SHAP to CV loop of normal LSTM model. 
+########################################################
+
+June 23rd
+
+Updated SHAP CV to fix plot creation. Made and saved these plots for Europe at 14 days. Will look into feature behaviors during events tomorrow by adding additional components for saving event indexes. 
+I can check 90th percentile or 30th,70th, whatever perentile events for confidence and correctness, as well as physical significance. 
+
