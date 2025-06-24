@@ -1,4 +1,4 @@
-File initialized May 8, 2025: 
+                                                                     File initialized May 8, 2025: 
 
 This is the master folder for the "forecasts of opportunity using EOFs" research, examining stratosphere-troposphere dynamic coupling. 
 There are multiple sub-folders 
@@ -314,4 +314,19 @@ June 23rd
 
 Updated SHAP CV to fix plot creation. Made and saved these plots for Europe at 14 days. Will look into feature behaviors during events tomorrow by adding additional components for saving event indexes. 
 I can check 90th percentile or 30th,70th, whatever perentile events for confidence and correctness, as well as physical significance. 
+########################################################
+
+June 24th
+
+Hottest day of the year. :)
+I decided to make the LSTM cross entropy model slightly more shallow by removing one of the LSTM layers ... I am rerunning this with the CV to observe whether this has a noticable impact on the overall performance/probability distributions/etc. 
+I have already seen that this iteration has the model implementing early stopping slightly earlier than previous iterations. 
+
+I also started today at plotting cross sections of U wind/PCs on days where they are "largest" ... if that makes sense. 
+So, like, looking through time I choose the date where PC 3 of zonal-mean wind is greatest and plot the composite of the EOF on that day + the composite of the actual zonal-mean wind.
+
+What is needed then is the following:
+- import of PC and EOF daily values 
+- import of daily values for the features themselves
+- save indices where certain PCs are greatest (and orthogonal PCs are low amplitude)
 
