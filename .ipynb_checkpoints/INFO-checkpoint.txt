@@ -330,3 +330,5 @@ What is needed then is the following:
 - import of daily values for the features themselves
 - save indices where certain PCs are greatest (and orthogonal PCs are low amplitude)
 
+Got it, kinda. Without the low amplitude things ... I will send these images to Andrea to see what her opinion is. 
+
