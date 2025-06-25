@@ -331,4 +331,40 @@ What is needed then is the following:
 - save indices where certain PCs are greatest (and orthogonal PCs are low amplitude)
 
 Got it, kinda. Without the low amplitude things ... I will send these images to Andrea to see what her opinion is. 
+########################################################
+
+June 25th
+
+I am going to go on a very brief sidequest at the gym-job tonight that involves going back to doing a Fully-connected NN using the cross sections of all three features as inputs and creating a merged model... Kinda like what I did for AGU. I realize I never actually tried this and I am curious what results it will yield, especially if I look at different forecast areas. These results are more interpretable by using LRP. 
+This will all be in the "sidequest" folder. If this, somehow, yields a better model ... lol. Bye, Felicia. 
+
+Back to the work at hand here, though. I have gotten to a point of slight confusion with the physical interpretability of the EOF-model.
+It helps, I guess, to describe what I am doing or what I have done/the purpose it all serves ...
+
+So essentially EOFs provide orthogonal eigenmode decompositions of a full field of my desired features. By using the timeseries of selections of these for within the model, I am essentially providing the model with the degree of the "presence" of a certain mode of variability and whether it is in its positive phase or negative phase. The model is not necessarily learning any specific dynamic patterns, but rather is able to observe which of the eigenmodes is most consistently related to cold anomalies or warm anomalies. 
+Apparently, SHAP value sign is about model input direction rather than feature sign itself. 
+
+The convention in which I need to think about this from here and forward is the following:
+Red dots (big + PC) with Positive SHAP = Positive EOF phase and warm anomaly
+Blue dots (big - PC) with Positive SHAP = Negative EOF phase and warm anomaly
+Red dots with Negative SHAP = Positive EOF phase and cold anomaly
+Blue dots with Negative SHAP = Negative EOF phase and cold anomaly
+The question becomes whether this physically makes sense. 
+I may benefit from plotting the top 5 of these EOF modes in +/- forms and sending these to Andrea for help in assessing whether they make physical sense for what they may be implying for the connections of these PCs to temperature outcomes. 
+
+Composites during confident and correct events are only really useful for assessing whether there is a known feature of opportunity.
+It will also probably benefit me to get the SHAP timeseries plots done so that I can modify the composite to represent the most "impactful" forecast days from the 14-day timeseries. 
+
+Okay, so what needs to be done here? 
+1) I am going to go on my little sidequest, idc...
+
+2) Spend a good moment doing interpretation of the signs + SHAP values for this model. What corresponds?
+3) Plot the EOF modes. Do these physically make sense with respect to the outcomes of SHAP?
+4) Get timeseries of SHAP. What timestep is most robust for the model?
+5) What do the composites of the three features show during instances of heightened forecast skill? Does this correspond to what we already know from literature or is there something new? 
+If all this is good ... move on to next region. 
+
+Will address the CAN at some point. 
+
+
 
