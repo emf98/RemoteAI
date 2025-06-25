@@ -13,3 +13,5 @@ As it stands, this is just a 14-day prediction. No timeseries.
 I am insulted. LOL. 
 This works!!! Somehow better than the LSTM?
 I want to poke at this model a little bit more to see if I can make conclusions about what it is actually looking at. 
+
+I did start conducting hyperparameter tuning just out of, like, pure curiosity. 
