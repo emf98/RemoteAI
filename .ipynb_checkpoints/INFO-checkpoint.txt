@@ -368,5 +368,16 @@ Will address the CAN at some point.
 
 (Little sidequest is interesting... almost too interesting lol.)
 
+########################################################
 
+June 26th/27th
+
+Work on side quest. The goal here was to see whether there is any worth-while information beinf provided by this model compared to what is shown in my "lessons learned" paper on stratospheric polar vortex ellipse diagnostics. The model is not bad by any means. There is an appearance for forecasts of opportunity, up to 80% accuracy over the models 65%. The really important thing here are a few distinctions from the RF model code. I want to see a few things.
+
+1) that the probability distributions of this model are improved, meaning that the task and data I am using here providde some kind of overall model improvement beyond what is shown in the "lessons learned."
+2) that there is new information from this model that is not observed from the "lessons learned" models. It may be comparable in accuracy, but what do the results actually tell us? I think that the big thing here is that I should be looking to observe that THIS FCNN model provides increased accuracy at other lead times and for different regions. That will be the added benefit of this thought experiment. 
+
+I am going to go ahead and try to do the "lessons learned" model again but with the addition of a few things: the probability distribution plots and attempts for other regions. 
+
+I am going to look into quickly moving that data and files here so I can test and log on git. 
 
