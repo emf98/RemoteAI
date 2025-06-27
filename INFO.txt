@@ -381,3 +381,11 @@ I am going to go ahead and try to do the "lessons learned" model again but with 
 
 I am going to look into quickly moving that data and files here so I can test and log on git. 
 
+_________________
+Okay, I learned a few things here. 
+1) I may need to reconsider how I am choosing my output data as a target. I think the choice of calculating Oct-Mar 2m temp anomalies and then predicting relative to that is having a large impact on my results. I think I may want to just use the Nov-Mar 2m temp anomalies... But I am waiting to hear if logically this makes sense. Afterall, I am NOT forecasting for Oct at all, so why include it in the anomaly? 
+2) I forgot to normalize for the FCNN. I am rerunning this now, this model will have to change. 
+
+I think, really, what I need to consider is whether I need to change my output data. If I do, I will need to redo a LOT of stuff. 
+
+
