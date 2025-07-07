@@ -388,4 +388,17 @@ Okay, I learned a few things here.
 
 I think, really, what I need to consider is whether I need to change my output data. If I do, I will need to redo a LOT of stuff. 
 
+##############################
+July 7th, 2025
 
+I am back from vacation. 
+I needed to make a new environment woohoo.
+
+Needed to install:
+!pip install innvestigate
+!pip install investigate
+
+!pip install matplotlib
+!pip install netCDF4
+!pip install cartopy
+!pip install shap
