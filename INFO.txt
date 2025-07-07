@@ -391,7 +391,7 @@ I think, really, what I need to consider is whether I need to change my output d
 ##############################
 July 7th, 2025
 
-I am back from vacation. 
+I am back from vacation. Hi. 
 I needed to make a new environment woohoo.
 
 Needed to install:
@@ -402,3 +402,11 @@ Needed to install:
 !pip install netCDF4
 !pip install cartopy
 !pip install shap
+!pip install keras_tuner
+
+Coming back to where I left it with the FCNN model. The sad and crushing reality is that I did, in fact, forget to normalize that data. AND it is now not tuning correctly. Shame. But I do not think that will really matter. I guess that was the point of this being a sidequest, it was just to test things for fun. 
+I will be turning back to the physical interpretability of the EOF model. Because in the end, we want these more complex 2-dimensional features to provide more information.  
+
+The real "use" here is trying to prove that, in some way, we gain some skill from looking at these more complex EOF features when compared to the results from the LL paper.
+I think I am going to need to write out specifically what I want to check/compare for the purpose of my dissertation/expanding on the LL paper for the dissertation. (On paper ... not here. Just in case. lol.)
+
