@@ -414,3 +414,4 @@ I think I am going to need to write out specifically what I want to check/compar
 July 8th, 2025
 
 I will be taking a brief hiatus here to work on LL images. 
+Also, git didn't track my changes from last night. Boo. I figured out how to fix that. 
