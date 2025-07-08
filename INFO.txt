@@ -410,3 +410,7 @@ I will be turning back to the physical interpretability of the EOF model. Becaus
 The real "use" here is trying to prove that, in some way, we gain some skill from looking at these more complex EOF features when compared to the results from the LL paper.
 I think I am going to need to write out specifically what I want to check/compare for the purpose of my dissertation/expanding on the LL paper for the dissertation. (On paper ... not here. Just in case. lol.)
 
+##############################
+July 8th, 2025
+
+I will be taking a brief hiatus here to work on LL images. 
