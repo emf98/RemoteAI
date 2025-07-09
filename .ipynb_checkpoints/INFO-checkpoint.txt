@@ -421,3 +421,5 @@ July 9th, 2025
 
 Back again. Adding in saving indices for confident predictions so that I can analyze what is physically occurring. 
 I will have to come back tomorrow and work on the code to do so... + the SHAP density timeseries plot so that I can look at the most IMPORTANT timestep for these physical plots. 
+
+I also think I keep forgetting to do the global config in git so that my changes are tracked. 
