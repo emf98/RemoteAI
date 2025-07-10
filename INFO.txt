@@ -428,3 +428,17 @@ I also think I keep forgetting to do the global config in git so that my changes
 July 10th, 2025
 
 I plotted distribution SHAP plots for the 14 day EOF Europe model for this comparison. Later at the gym I will work on the composite plots for comparison. 
+
+For this iteration of the LSTM Model:
+Average Num. of 10% Confident and Correct Postive Predictions: 33.29%
+Average Num. of 10% Confident and Correct Negative Predictions: 35.24%
+Average Num. of 10% Confident and FALSE Postive Predictions: 14.76%
+Average Num. of 10% Confident and FALSE Negative Predictions: 16.71%
+#######################################################################
+Average Num. of 10% Confident and Correct Predictions: 68.53%
+Average Num. of 10% Confident and FALSE Predictions: 31.47%
+
+The saved indices represent the saved temp index. SO. This would mean 0 = temp index November 16. And Feature indices October 19-November 2.
+It looks like regardless of the most important feature, the key timesteps are days +16 from the forecast. (T -2 in the window of interest)
+
+What I need to do then is plot the composites from day +16 from U-wind, EHF, and GPH. 
