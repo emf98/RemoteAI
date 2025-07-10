@@ -437,3 +437,9 @@ Average Num. of 10% Confident and FALSE Negative Predictions: 16.71%
 #######################################################################
 Average Num. of 10% Confident and Correct Predictions: 68.53%
 Average Num. of 10% Confident and FALSE Predictions: 31.47%
+
+The saved indices represent the saved temp index. SO. This would mean 0 = temp index November 16. And Feature indices October 19-November 2.
+It looks like regardless of the most important feature, the key timesteps are days +16 from the forecast. (T -2 in the window of interest)
+
+What I need to do then is plot the composites from day +17 from U-wind, EHF, and GPH. 
+This is the index +11 because temp (reference) is has an additional +14 days added on to the pre-existing gap to account for the window of observations. SO the range of relevant observations is index to index +14 in the obs. And for us to observe T -3, we want to look at index +11.
