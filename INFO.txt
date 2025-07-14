@@ -448,3 +448,5 @@ This is the index +11 because temp (reference) is has an additional +14 days add
 July 14th, 2025
 
 I am testing the EOF LSTM model for whether the FOs change with forecast region. (Canada, SE US next)
+
+So far, for Europe and Canada, it looks like YES! it is the same FOs. Which is a great sign. Further evidence for the LL paper. 
