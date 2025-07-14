@@ -443,3 +443,8 @@ It looks like regardless of the most important feature, the key timesteps are da
 
 What I need to do then is plot the composites from day +17 from U-wind, EHF, and GPH. 
 This is the index +11 because temp (reference) is has an additional +14 days added on to the pre-existing gap to account for the window of observations. SO the range of relevant observations is index to index +14 in the obs. And for us to observe T -3, we want to look at index +11.
+
+##############################
+July 14th, 2025
+
+I am testing the EOF LSTM model for whether the FOs change with forecast region. 
